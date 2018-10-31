@@ -10,6 +10,7 @@ const client = new line.Client(config);
 const app = express();
 
 app.get('/', (req, res) => {
+  console.log('indexpage')
   console.log(res)
 });
 // webhook callback
